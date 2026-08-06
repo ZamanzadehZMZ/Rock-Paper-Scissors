@@ -36,7 +36,7 @@ class RockPaperScissors:
         ):
             return 'You Lost!'
         else :
-            return 'You Won'
+            return 'You Won!'
         
     def play(self) -> str:
         """Main method to play Rock, Paper, Scissors"""
