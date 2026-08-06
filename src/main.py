@@ -2,7 +2,7 @@ import random
 
 class RockPaperScissors:
     '''
-    Main class for the game.
+    Main class for the game
     '''
     
     def __init__(self):
