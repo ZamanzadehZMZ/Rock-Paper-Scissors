@@ -4,7 +4,6 @@ A collection of my simple, daily Python practice projects to improve my coding s
 
 ## Projects List
 
+### Rock-Paper-scissors (OOP)
+
 ### BMI
-
-### Rock-Paper-scissors
-
