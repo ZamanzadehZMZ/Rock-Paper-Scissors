@@ -1,3 +1,8 @@
+"""
+    A simple in-memory phonebook using a dictionary to add, search, show, and delete contacts
+"""
+
+
 contacts = {}
 
 def add_contact(book) -> str :
