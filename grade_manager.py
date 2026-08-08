@@ -7,34 +7,35 @@ def get_scores():
     scores = []
     user_input = input("Enter scores (separate with spaces :\n")
 
-    for item in user_input.split():
-        try:
+    for item  in user_input.split():
+        try :
             score = float(item)
 
-            if 0 <= score <= 20:
+            if 0 <= score<= 20:
                 scores.append(score)
             else:
                 print(f"Invalid score: {item} Score must be between 0 and 20")
 
         except ValueError:
-            print(f"'{item}' is not a valid number.")
+            print(f"'{item } ' is not a valid number.")
 
     return scores
 
 
 def show_results(scores):
     
-    mean = sum(scores) / len(scores)
+    mean = sum(scores) /len(scores)
 
     print(f"Mean: {mean:.2f}")
-    print(f"Maximum: {max(scores):.2f}")
-    print(f"Minimum: {min(scores):.2f}")
+    print(f"Maximum:{max(scores):.2f}")
+    print(f"Minimum : {min(scores):.2f}")
 
 
 def main():
     
     
     print("Welcome to the Grade Manager!")
+    print('This is a fun and simple project')
 
     while True:
         scores = get_scores()
