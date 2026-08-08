@@ -1,4 +1,4 @@
-contancts = {}
+contacts = {}
 
 def add_contact(book) -> str :
     name = input('Enter name:\n').lower().strip()
@@ -37,5 +37,33 @@ def delete_contact(book) -> str:
     else:
         book.pop(delete_name)
     
-def 
+    
+while True:
+    print("1. Add contact.")
+    print("2. Show all contacts")
+    print("3. Search contact")
+    print("4. Delete contact ")
+    print("5 . Exit")
+
+    option = input('Choise an option:\n')
+    
+    if option == '1':
+        add_contact(contacts)
+        
+    elif option == '2':
+        show_all(contacts)
+
+    elif option == '3':
+        search_contact(contacts)
+
+    elif option == '4':
+        delete_contact(contacts)
+
+    elif option == '5':
+        print("Goodbye!")
+        break
+
+    else:
+        print("Invalid input!\n")
+
     
