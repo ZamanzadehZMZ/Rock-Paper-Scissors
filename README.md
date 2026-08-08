@@ -6,6 +6,8 @@ A collection of my simple, daily Python practice projects to improve my coding s
 
 ### Rock-Paper-scissors (OOP)
 
+### Grade-Manager
+
 ### Phone-book
 
 ### BMI
