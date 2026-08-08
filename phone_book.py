@@ -15,7 +15,7 @@ def add_contact(book) -> str :
         book[name]= phone
         print("Contact saved.\n")    
         
-def show_all(book) -> str:
+def show_all(book) :
     if not book:
         print('Your phone book is empty!\n')
     else:
@@ -33,7 +33,9 @@ def search_contact(book):
 def delete_contact(book) -> str:
     delete_name = input('Enter your target name for delete:\n').lower().strip()
     if delete_name not in book:
-        print("There isn't this name in phone book!\n")
+        print("There isn't this name in the phone book!\n")
+        print(f"Contact '{delete_name}' deleted successfully.\n")
+        
     else:
         book.pop(delete_name)
     
